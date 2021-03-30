@@ -142,7 +142,7 @@ body {
     padding-top: 250px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -186,8 +186,25 @@ input:active{
 }
 
 #datos-contacto {
+    height: 300px;
+    width: 500px;
     border-left: 2px solid #DE1D26;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.links-contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 25px;
+}
+
+#imagen-portada-contacto {
+    padding-top: 50px;
 }
