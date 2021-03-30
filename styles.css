@@ -1,3 +1,4 @@
+
 #top-nav-bar {
    display: flex;
    flex-direction: row; 
@@ -139,24 +140,27 @@ body {
 }
 
 #container-contacto {
-    padding-top: 250px;
+    height: 500px;
+    padding-top: 150px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    background: linear-gradient(-45deg, #ecf0f1, #bdc3c7, #2ecc71, #27ae60);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
 }
 
 #encuesta {
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
     color: #DE1D26;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    background-color: transparent;
+    background-color: white;
     border: 10px  red;
     height: 300px;
-    padding: 0px 0px 0px 0px;
+    padding: 50px;
+    margin-right: 60px;
+    border-radius: 25px;
 }
 
 #consulta-form {
@@ -178,23 +182,28 @@ input:active{
 }
 
 #submit-button {
+    border-radius: 25px;
     margin-top: 50px;
     font-size: 20px;
+    background-color: white;
+    border: 2px solid #DE1D26; 
+    transition-duration: 1s;
+}
+
+#submit-button:hover {
     background-color: #DE1D26;
-    border: thick;
-    border-color: #DE1D26;
 }
 
 #datos-contacto {
     height: 300px;
-    width: 500px;
+    width: 550px;
     border-left: 2px solid #DE1D26;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     align-content: stretch;
-    justify-content: space-around;
-    padding: 25px;
+    justify-content: space-evenly;
 }
 
 .links-contacto {
@@ -202,9 +211,21 @@ input:active{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 25px;
+    padding: 15px 0px 15px 30px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 0px 15px 15px 0px;
+    transition-duration: 1s;
+}
+
+.links-contacto:hover {
+    opacity: 50%;
 }
 
 #imagen-portada-contacto {
     padding-top: 50px;
+}
+
+.iconos {
+    padding: 0px 10px 0px 0px;
 }
