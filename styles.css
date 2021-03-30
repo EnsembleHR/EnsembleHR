@@ -223,10 +223,11 @@ input:active{
     background-color: #DE1D26;
     border-radius: 15px 2px 15px 2px;
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .links-contacto:hover {
-    color: white;
+    background-color: #ea5e64;
 }
 
 #imagen-portada-contacto {
